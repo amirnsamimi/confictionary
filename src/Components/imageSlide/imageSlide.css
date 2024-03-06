@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainImage{
+  width: 90%;
+  height: 100vh;
+  background-image: url("img/backpink.jpg");
+  margin: 2% auto;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: end; */
+  padding: 2rem 1rem;
+}
+.textOnImg{
+  display: flex;
+  margin-top: auto;
+  gap: 0.5rem;
+}
+.icon{
+  background-color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.text{
+  background-color: white;
+  border-radius: 15px;
+  padding: 0 2rem;
+}

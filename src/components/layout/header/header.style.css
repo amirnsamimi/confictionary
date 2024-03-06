@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+header nav div {
+  width: 32%;
+}

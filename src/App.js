@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import Templaet from "./components/layout/templaet/Templaet";
 
 function App() {
   return (

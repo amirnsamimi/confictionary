@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containall{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+}
+.forallthree {
+    position: relative;
+    display: flex;
+    top: 600px;
+    left: 600px;
+    width: min-content;
+    height: min-content;
+    align-items: flex-end;
+    justify-content: flex-end;
+    svg {
+        position: absolute;
+    }
+}

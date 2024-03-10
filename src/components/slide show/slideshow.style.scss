@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    width: 100%;
+    font-size: 144px;
+    font-weight: 300;
+    height: 100%;
+}
+.slideshow {
+    background-color: #FFFFFF;
+    overflow-x: visible;
+}

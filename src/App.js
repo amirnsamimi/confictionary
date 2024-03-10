@@ -1,11 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import FooterOption from "./components/FooterOption/FooterOption";
 
 function App() {
-  return <div className="App">
-    <FooterOption/>
-  </div>;
+  return <div className="App"></div>;
 }
 
 export default App;

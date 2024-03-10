@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Slideshow from "./components/slide show/slideshow";
+import FooterOption from "./components/FooterOption/FooterOption";
 
 function App() {
   return <div className="App">
-    <Slideshow/>
+    <FooterOption/>
   </div>;
 }
 

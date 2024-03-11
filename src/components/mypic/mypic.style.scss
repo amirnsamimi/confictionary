@@ -10,17 +10,16 @@
     height: fit-content;
     justify-content: center;
     align-items: center;
-    border-color: aqua;
 }
 .forallthree {
-    position: relative;
     display: flex;
-    top: 600px;
-    left: 600px;
     width: min-content;
     height: min-content;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
+    :first-child{
+        position: relative;
+    }
     svg {
         position: absolute;
     }

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containall{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.forallthree {
+    display: flex;
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    justify-content: flex-start;
+    :first-child{
+        position: relative;
+    }
+    svg {
+        position: absolute;
+    }
+}
